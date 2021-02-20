@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main img {
+  width: 400px;
+  cursor: pointer; 
+}
+
+.mask {
+  background-color: rgba(0,0,0,.45);
+  min-width: 1080px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+}
+.bigger-wrapper {
+  display: none;
+  min-width: 1080px;
+}
+
+.bigger-wrapper img {
+  position: absolute;
+  display: block;
+  max-width: 960px;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close-icon {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 15px;
+  font-size: 32px;
+  line-height: 20px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
