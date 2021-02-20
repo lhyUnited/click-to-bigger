@@ -1,6 +1,5 @@
 // 常量声明
 const img = document.querySelector('.main img');
-const main = document.querySelector('.main');
 const biggerWrapper = document.querySelector('.bigger-wrapper');
 const biggerImg = document.querySelector('.img-wrapper img');
 
