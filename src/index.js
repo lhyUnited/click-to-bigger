@@ -2,8 +2,7 @@
 const img = document.querySelector('.main img');
 const main = document.querySelector('.main');
 const biggerWrapper = document.querySelector('.bigger-wrapper');
-const biggerImg = document.querySelector('.bigger-wrapper img');
-const closeIcon = document.querySelector('.close-icon')
+const biggerImg = document.querySelector('.img-wrapper img');
 
 const bigger = (e) => {
   biggerWrapper.style.display = 'block'
@@ -16,4 +15,4 @@ const closeModal = () => {
 }
 
 img.addEventListener('click', bigger);
-closeIcon.addEventListener('click', closeModal)
+biggerImg.addEventListener('click', closeModal)
